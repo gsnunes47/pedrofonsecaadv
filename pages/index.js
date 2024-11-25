@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaWhatsapp } from 'react-icons/fa6'
 import { 
   User,
   Phone, 
@@ -13,7 +14,6 @@ import {
 const LawFirmLandingPage = () => {
   return (
     <div className="min-h-screen bg-sky-50">
-      {/* Header/Navbar */}
       <nav className="bg-teal-700 text-black py-4 ">
         <div className="text-white container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
@@ -24,6 +24,14 @@ const LawFirmLandingPage = () => {
             </div>
           </div>
           
+          <a 
+  href='https://wa.me/5513997262427' 
+  className='bg-green-600 hover:bg-green-700 w-min p-3 rounded-full fixed bottom-10 right-4 cursor-pointer md:right-8 transition-colors duration-300 ease-in-out'
+>
+  <FaWhatsapp color='white' className='w-7 h-7 md:w-10 md:h-10' />
+</a>
+
+
           <div className="text-lg flex items-center space-x-6">
             <a href="#" className="bg-teal-700 hover:bg-teal-600 px-4 py-2 rounded-md hover:text-black-300">Início</a>
             <a href="#areas" className="bg-teal-700 hover:bg-teal-600 px-4 py-2 rounded-md hover:text-black-300">Áreas de atuação</a>
@@ -36,7 +44,6 @@ const LawFirmLandingPage = () => {
         </div>
       </nav>
 
-      {/* Hero Section */}
       <div className="container mx-auto px-4 py-16 grid grid-cols-2 gap-8">
         <div className="text-black">
           <h2 className="text-2xl mb-4">Sua Defesa, Minha Prioridade</h2>
@@ -61,7 +68,6 @@ const LawFirmLandingPage = () => {
         </div>
       </div>
 
-      {/* Áreas de Atuação */}
       <div className="bg-teal-700 py-16">
         <div className="container mx-auto px-4">
           <h1 id='areas' className="text-3xl  text-center font-bold mb-12">
@@ -99,7 +105,6 @@ const LawFirmLandingPage = () => {
         </div>
       </div>
 
-      {/* Sobre Section */}
       <div className="container mx-auto px-4 py-16 grid grid-cols-2 gap-8">
         <div className="relative">
           <div className="bg-teal-900 rounded-3xl p-8 h-full">
@@ -129,12 +134,17 @@ const LawFirmLandingPage = () => {
           </a>
         </div>
       </div>
+     
+      <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=5544999601880&amp;text=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20receber%20algumas%20informa%C3%A7%C3%B5es%20" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+      
 
-      {/* Footer */}
       <footer className="bg-sky-50 text-black pt-16 pb-4">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-3 gap-8 border-b border-black-700 pb-8">
-            {/* Logo e Descrição */}
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <img src="/assets/pf logo.png" alt="Logo" className="h-20" />
@@ -145,7 +155,6 @@ const LawFirmLandingPage = () => {
               </div>
             </div>
 
-            {/* Contato */}
             <div>
               <h3 id='contato' className="text-xl font-bold mb-4">Contato</h3>
               <div className="flex flex-col space-y-2">
@@ -160,7 +169,6 @@ const LawFirmLandingPage = () => {
               </div>
             </div>
 
-            {/* Redes Sociais */}
             <div>
               <h3 className="text-xl font-bold mb-4">Minhas redes sociais</h3>
               <div className="flex space-x-4">
@@ -171,7 +179,6 @@ const LawFirmLandingPage = () => {
             </div>
           </div>
 
-          {/* Copyright e Links */}
           <div className="pt-8 text-center text-sm text-black-400">
             
             <p>© COPYRIGHT 2024 - Pedro Fonseca. Todos os direitos reservados.</p>
