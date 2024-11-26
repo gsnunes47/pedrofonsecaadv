@@ -73,7 +73,7 @@ const LawFirmLandingPage = () => {
             Estou totalmente comprometido em proteger os direitos dos trabalhadores como você.
             </p>
             <p className="text-black mb-8">
-            Sou especializado em casos trabalhistas, previdenciários e cíveis, estou prontos para assegurar que você obtenha o que lhe é devido.
+            Sou especializado em casos trabalhistas, previdenciários e cíveis, estou pronto para assegurar que você obtenha o que lhe é devido.
             </p>
             <p className="text-black mb-8">
             Não permita que seus direitos sejam ignorados ou violados confie em mim para uma solução eficaz e ágil.
