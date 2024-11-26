@@ -6,8 +6,11 @@ module.exports = {
   ],  
   theme: {
     extend: {
+      colors: {
+        customGold: '#DBAA62',
+      },
       fontFamily: {
-        mono: ['JetBrains Mono', 'monospace'],  
+        sans: ['Montserrat', 'sans-serif'],  
     },
   },
   plugins: [],
