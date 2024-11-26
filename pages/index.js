@@ -29,7 +29,7 @@ const LawFirmLandingPage = () => {
 
           <div className="text-customGold container 2xl:mx-auto px-4 flex justify-between items-center">
             <div className="flex items-center ">
-              <img src="assets\pf logo branca.png" alt="Logo" className="h-20" />
+              <img src="assets\pf logo dourada.png" alt="Logo" className="h-20" />
               <div>
                 <div className="font-semibold text-lg">Pedro Fonseca</div>
                 <div className="text-sm ">advogado</div>
@@ -54,28 +54,29 @@ const LawFirmLandingPage = () => {
         {/* Início */}
         <div className="container mx-auto px-4 py-16  ">
           
-          <div className="grid lg:grid-cols-2 grid-cols-1 lg:grid-rows-1 grid-rows-2 gap-8">
-            <div className="bg-sky-950 rounded-3xl mb-6 p-8 ">
+          <div className="grid lg:grid-cols-2 grid-cols-1 lg:grid-rows-1 grid-rows-1 gap-8">
+            
+            {/* <div className="bg-sky-950 rounded-3xl mb-6 p-8 ">
               <img
                 src="/assets/Dr Pedro.jpg"
                 alt="Advogado Pedro Fonseca"
                 className="w-full h-full object-cover "
               />
-            </div>
+            </div> */}
 
           <div className="text-black">
-            {/* <h2 className="text-2xl mb-4">Porque escolher-nos?</h2> */}
             <h1 className="text-4xl font-bold mb-6">
-              Soluções Jurídicas Eficazes
+              Seja bem-vindo!
             </h1>
+            <h2 className="text-2xl mb-4">Porque me escolher?</h2>
             <p className="text-black mb-8">
-            Estamos totalmente comprometidos em proteger os direitos dos trabalhadores como você.
+            Estou totalmente comprometido em proteger os direitos dos trabalhadores como você.
             </p>
             <p className="text-black mb-8">
-            Com uma equipe especializada em casos trabalhistas, previdenciários e cíveis, estamos prontos para assegurar que você obtenha o que lhe é devido.
+            Sou especializado em casos trabalhistas, previdenciários e cíveis, estou prontos para assegurar que você obtenha o que lhe é devido.
             </p>
             <p className="text-black mb-8">
-            Não permita que seus direitos sejam ignorados ou violados – confie em nós para uma solução eficaz e ágil.
+            Não permita que seus direitos sejam ignorados ou violados confie em mim para uma solução eficaz e ágil.
             </p>
             <button className="bg-customGold transition-colors duration-300 ease-in-out text-white hover:bg-sky-900 px-6 py-3 rounded-md">
               Fale comigo
@@ -161,7 +162,7 @@ const LawFirmLandingPage = () => {
             <div className="grid grid-row-3 lg:grid-cols-3 gap-8 border-b border-customGold pb-8">
               <div>
                 <div className="flex items-center space-x-2 lg:mb-4 mb-0">
-                  <img src="/assets/pf logo branca.png" alt="Logo" className="h-20" />
+                  <img src="/assets/pf logo dourada.png" alt="Logo" className="h-20" />
                   <div>
                     <div className="font-semibold text-lg">Pedro Fonseca</div>
                     <div className="text-sm text-black-400">advogado</div>
