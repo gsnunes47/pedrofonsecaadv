@@ -6,6 +6,9 @@ module.exports = {
   ],  
   theme: {
     extend: {
+      fontSize: {
+        'xxs': '0.525rem', // Equivale a 10px
+      },
       colors: {
         customGold: '#DBAA62',
       },
