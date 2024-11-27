@@ -73,14 +73,14 @@ const LawFirmLandingPage = () => {
             Estou totalmente comprometido em proteger os direitos dos trabalhadores como você.
             </p>
             <p className="text-black mb-8">
-            Sou especializado em casos trabalhistas, previdenciários e cíveis, estou pronto para assegurar que você obtenha o que lhe é devido.
+            Sou especializado em casos trabalhistas, previdenciários e estou pronto para assegurar que você obtenha o que lhe é devido.
             </p>
             <p className="text-black mb-8">
             Não permita que seus direitos sejam ignorados ou violados confie em mim para uma solução eficaz e ágil.
             </p>
-            <button className="bg-customGold transition-colors duration-300 ease-in-out text-white hover:bg-sky-900 px-6 py-3 rounded-md">
+            <a href='https://wa.me/5513997262427' className="bg-customGold transition-colors duration-300 ease-in-out text-white hover:bg-sky-900 px-6 py-3 rounded-md">
               Fale comigo
-            </button>
+            </a>
           </div>
           </div>
         </div>
