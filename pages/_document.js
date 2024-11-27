@@ -6,7 +6,7 @@ class MyDocument extends Document {
       <Html lang="pt-BR">
         <Head>
           <title>Dr. Pedro Fonseca</title>
-          <link rel="icon" href="/assets/pf logo branca.png" type="image/png" />
+          <link rel="icon" href="/assets/dourada e fundo.jpg" type="image/png" />
           
           <meta name="description" content="Dr. Pedro Fonseca" />
           

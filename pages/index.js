@@ -9,7 +9,10 @@ import {
   MessageCircle,
   PhoneCall,
   MessageSquare,
-  MessageCircleOff
+  MessageCircleOff,
+  WaypointsIcon,
+  LucideWaypoints,
+  MapPin
 } from 'lucide-react';
 
 const LawFirmLandingPage = () => {
@@ -161,9 +164,9 @@ const LawFirmLandingPage = () => {
         {/* Footer */}
         <footer className="bg-sky-950 text-customGold pt-16 pb-4">
 
-          <div className="container mx-auto px-4">
+          <div className="container mx-auto px-2">
 
-            <div className="grid grid-row-3 lg:grid-cols-3 gap-8 border-b border-customGold pb-8">
+            <div className="grid grid-row-3 lg:grid-cols-4 gap-8 border-b border-customGold pb-8">
               <div>
                 <div className="flex items-center space-x-2 lg:mb-4 mb-0">
                   <img src="/assets/pf logo dourada.png" alt="Logo" className="h-20" />
@@ -181,6 +184,13 @@ const LawFirmLandingPage = () => {
                       <Instagram size={24} />
                     </a>
                   </div>
+                </div>
+
+                <div className='grid grid-rows-2 '>
+
+                  <h3 className="text-xl font-bold mb-4">Endereço</h3> 
+                  <p className='flex justify-start gap-2'> <MapPin/>Avenida Dona Evarista de Castro<br />Ferreira, 176 - Centro - Miracatu - SP</p>
+
                 </div>
 
                 <div>
