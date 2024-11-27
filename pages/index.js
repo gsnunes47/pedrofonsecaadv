@@ -25,7 +25,7 @@ const LawFirmLandingPage = () => {
         </a>
 
         {/* Navbar */}
-        <nav className="bg-sky-950 py-4 ">
+        <nav className="fixed top-0 left-0 w-full py-4 bg-sky-950  z-50">
 
           <div className="text-customGold container 2xl:mx-auto px-4 flex justify-between items-center">
             <div className="flex items-center ">
@@ -47,7 +47,11 @@ const LawFirmLandingPage = () => {
             </div>
           </div>
         </nav>
-
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       {/* Body */}
       <div className="min-h-screen  bg-sky-50">
         
