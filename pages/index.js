@@ -1,4 +1,4 @@
-import React, useEffect from 'react';
+import { useEffect, React } from 'react';
 import '@fontsource/montserrat';
 import { FaWhatsapp } from 'react-icons/fa6'
 import {
@@ -14,7 +14,6 @@ import {
   LucideWaypoints,
   MapPin
 } from 'lucide-react';
-import { useEffect } from 'react';
 
 const LawFirmLandingPage = () => {
   
